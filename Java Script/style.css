@@ -1,0 +1,50 @@
+table {
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+tr {
+    height: 80px; 
+    background-color: #4e494d;
+}
+
+td {
+    width: 25%;
+    border: 1px solid #4e494d;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+td:hover {
+    opacity: 0.8;
+}
+
+#inputBox {
+    background-color: #4e494d;
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    border: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.digitButton {
+    background-color: #807e80;
+}
+
+.operatorButton { 
+    background-color: #ff9e06;
+}
+
+.ACButton {
+    background-color: #656165;
+}
+
+.equalsButton {
+    background-color: #ff9e06;
+}
